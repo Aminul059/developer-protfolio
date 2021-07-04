@@ -64,8 +64,16 @@ background-position: left;
 
 }
 #amin{
-    border-left:10px solid purple;
+    border-left:10px solid;
+    border-image: linear-gradient(purple, skyblue);
+    border-image-slice: 1;
+
 }
 #aminul{
-    border-left:10px solid blue;
+    border-left:10px solid;
+    border-image: linear-gradient(rgb(210, 245, 154), green);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
